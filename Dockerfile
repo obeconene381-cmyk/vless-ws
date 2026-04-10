@@ -1,4 +1,4 @@
-FROMFROM alpine:latest
+FROM alpine:latest
 
 # تثبيت الأدوات اللازمة
 RUN apk add --no-cache curl bash ca-certificates unzip
